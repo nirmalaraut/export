@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>item revenue:</strong>
+  <%= @user.item %>
+</p>
+
+<p>
+  <strong>total_sales:</strong>
+  <%= @user.total_sales %>
+</p>
+
+<p>
+  <strong>percentage_of_gross:</strong>
+  <%= @user.percentage_of_gross %>
+</p>
+
+
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
